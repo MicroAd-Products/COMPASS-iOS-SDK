@@ -36,6 +36,6 @@ Log message
 ~~~
 
 ##Problems##
-If you encounter a problem in intergrating COMPASS SDK even after reading the manual, please look at the [FAQ](https://github.com/MicroAd-Products/COMPASS-iOS-SDK/wiki/COMPASS-SDK-for-iOS-FAQ) page.
+If you encountered a problem in intergrating COMPASS SDK even after reading the manual, please look at the [FAQ](https://github.com/MicroAd-Products/COMPASS-iOS-SDK/wiki/COMPASS-SDK-for-iOS-FAQ) page.
 
 If it does not address your problem, please open an issue.

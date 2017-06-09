@@ -16,6 +16,8 @@ Please read the [manual](https://github.com/MicroAd-Products/COMPASS-iOS-SDK/wik
 ~~~
 COMPASS-SDK
 ├── COMPASS-Headers
+│   ├── CompassInterstitial.h
+│   ├── CompassInterstitialDelegate.h
 │   ├── CompassInterstitialView.h
 │   ├── CompassSdkInfo.h
 │   └── CompassView.h

@@ -1,11 +1,13 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import "AvailabilityMacros.h"
 
 // エラー情報のドメイン
 extern NSString * const CIVErrorDomain;
 // ラップされた元のエラー情報のキー
 extern NSString * const CIVSuperError;
 
+DEPRECATED_MSG_ATTRIBUTE("This is deprecated since version 2.1.0. Please use CompassInterstitialDelegate methods.")
 @protocol CompassInterstitialViewDelegate <NSObject>
 
 @optional
@@ -37,11 +39,10 @@ extern NSString * const CIVSuperError;
 
 @end
 
-
+DEPRECATED_MSG_ATTRIBUTE("This is deprecated since version 2.1.0. Please use CompassInterstitial.")
 @interface CompassInterstitialView : NSObject
 
 @property (nonatomic, weak) id<CompassInterstitialViewDelegate> delegate;
-@property (nonatomic, assign) BOOL isMediated;
 
 + (CompassInterstitialView *)sharedManager;
 

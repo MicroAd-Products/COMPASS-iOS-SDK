@@ -11,7 +11,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CompassIosSdk",
-            path: "./CompassIosSdk.xcframework"
+            path: "CompassIosSdk.xcframework"
         )
     ]
 )

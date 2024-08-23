@@ -1,0 +1,861 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CompassIosSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CompassIosSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CompassInterstitialUIView",
+        "printedName": "CompassInterstitialUIView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(kvSet:spot:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CompassInterstitialUIView",
+                "printedName": "CompassIosSdk.CompassInterstitialUIView",
+                "usr": "s:13CompassIosSdk0A18InterstitialUIViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KvSet",
+                "printedName": "CompassIosSdk.KvSet",
+                "usr": "c:@M@CompassIosSdk@objc(cs)KvSet"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13CompassIosSdk0A18InterstitialUIViewV5kvSet4spotAcA02KvG0C_SStcfc",
+            "mangledName": "$s13CompassIosSdk0A18InterstitialUIViewV5kvSet4spotAcA02KvG0C_SStcfc",
+            "moduleName": "CompassIosSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<CompassIosSdk.CompassInterstitialUIView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CompassInterstitialUIView",
+                    "printedName": "CompassIosSdk.CompassInterstitialUIView",
+                    "usr": "s:13CompassIosSdk0A18InterstitialUIViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13CompassIosSdk0A18InterstitialUIViewV06updateE0_7contextySo0E0C_7SwiftUI0E20RepresentableContextVyACGtF",
+            "mangledName": "$s13CompassIosSdk0A18InterstitialUIViewV06updateE0_7contextySo0E0C_7SwiftUI0E20RepresentableContextVyACGtF",
+            "moduleName": "CompassIosSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<CompassIosSdk.CompassInterstitialUIView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CompassInterstitialUIView",
+                    "printedName": "CompassIosSdk.CompassInterstitialUIView",
+                    "usr": "s:13CompassIosSdk0A18InterstitialUIViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13CompassIosSdk0A18InterstitialUIViewV04makeE07contextSo0E0C7SwiftUI0E20RepresentableContextVyACG_tF",
+            "mangledName": "$s13CompassIosSdk0A18InterstitialUIViewV04makeE07contextSo0E0C7SwiftUI0E20RepresentableContextVyACG_tF",
+            "moduleName": "CompassIosSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13CompassIosSdk0A18InterstitialUIViewV",
+        "mangledName": "$s13CompassIosSdk0A18InterstitialUIViewV",
+        "moduleName": "CompassIosSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "CompassIosSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "CompassIosSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CompassInterstitialView",
+        "printedName": "CompassInterstitialView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CompassIosSdk.CompassInterstitialView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CompassInterstitialView",
+                    "printedName": "CompassIosSdk.CompassInterstitialView",
+                    "usr": "c:@M@CompassIosSdk@objc(cs)CompassInterstitialView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CompassIosSdk@objc(cs)CompassInterstitialView(im)initWithCoder:",
+            "mangledName": "$s13CompassIosSdk0A16InterstitialViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "CompassIosSdk",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CompassInterstitialView",
+                "printedName": "CompassIosSdk.CompassInterstitialView",
+                "usr": "c:@M@CompassIosSdk@objc(cs)CompassInterstitialView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CompassIosSdk@objc(cs)CompassInterstitialView(im)initWithFrame:",
+            "mangledName": "$s13CompassIosSdk0A16InterstitialViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "CompassIosSdk",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(spot:kvSet:errorHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CompassIosSdk.KvSet?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KvSet",
+                    "printedName": "CompassIosSdk.KvSet",
+                    "usr": "c:@M@CompassIosSdk@objc(cs)KvSet"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CompassIosSdk@objc(cs)CompassInterstitialView(im)loadWithSpot:kvSet:errorHandler:",
+            "mangledName": "$s13CompassIosSdk0A16InterstitialViewC4load4spot5kvSet12errorHandlerySS_AA02KvI0CSgySScSgtF",
+            "moduleName": "CompassIosSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CompassIosSdk@objc(cs)CompassInterstitialView(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s13CompassIosSdk0A16InterstitialViewC21userContentController_10didReceiveySo06WKUsergH0C_So15WKScriptMessageCtF",
+            "moduleName": "CompassIosSdk",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CompassIosSdk@objc(cs)CompassInterstitialView",
+        "mangledName": "$s13CompassIosSdk0A16InterstitialViewC",
+        "moduleName": "CompassIosSdk",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KvSet",
+        "printedName": "KvSet",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(gender:birthday:age:postcode:email:hashedEmail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KvSet",
+                "printedName": "CompassIosSdk.KvSet",
+                "usr": "c:@M@CompassIosSdk@objc(cs)KvSet"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CompassIosSdk@objc(cs)KvSet(im)initWithGender:birthday:age:postcode:email:hashedEmail:",
+            "mangledName": "$s13CompassIosSdk5KvSetC6gender8birthday3age8postcode5email11hashedEmailACSSSg_A5Jtcfc",
+            "moduleName": "CompassIosSdk",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KvSet",
+                "printedName": "CompassIosSdk.KvSet",
+                "usr": "c:@M@CompassIosSdk@objc(cs)KvSet"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CompassIosSdk@objc(cs)KvSet(im)init",
+            "mangledName": "$s13CompassIosSdk5KvSetCACycfc",
+            "moduleName": "CompassIosSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CompassIosSdk@objc(cs)KvSet",
+        "mangledName": "$s13CompassIosSdk5KvSetC",
+        "moduleName": "CompassIosSdk",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "CompassIosSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "CompassIosSdk"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 17,
+      "value": "\"${COMPASS_SPOT}\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 20,
+      "value": "\"${COMPASS_EXT_IFA}\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 22,
+      "value": "\"${COMPASS_EXT_APPID}\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 23,
+      "value": "\"${COMPASS_EXT_GENDER}\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 25,
+      "value": "\"${COMPASS_EXT_BIRTHDAY}\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 20,
+      "value": "\"${COMPASS_EXT_AGE}\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 25,
+      "value": "\"${COMPASS_EXT_POSTCODE}\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 22,
+      "value": "\"${COMPASS_EXT_EMAIL}\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 29,
+      "value": "\"${COMPASS_EXT_HASHED_EMAIL}\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 228,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 258,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialView.swift",
+      "kind": "FloatLiteral",
+      "offset": 317,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/models\/KvSet.swift",
+      "kind": "StringLiteral",
+      "offset": 26,
+      "length": 5,
+      "value": "\"CompassIosSdk.KvSet\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 140,
+      "length": 61,
+      "value": "\"https:\/\/cdn.microad.jp\/compass-sdk\/ios\/interstitial_ad.html\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 36,
+      "value": "\"広告のloadに失敗しました\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 44,
+      "value": "\"Bundle IDが取得できませんでした\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 44,
+      "length": 26,
+      "value": "\"CompassIosSdk.CompassInterstitialWebView\""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <title></title>
+    <script type="text/javascript">
+        var microadCompass = microadCompass || {};
+        microadCompass.queue = microadCompass.queue || [];
+        microadCompass.isSkipTrackers = true;
+    </script>
+    <script type="text/javascript" charset="UTF-8" src="//j.microad.net/js/compass.js" onload="new microadCompass.AdInitializer().initialize();" async></script>
+</head>
+
+<body>
+    <div id="${COMPASS_SPOT}">
+        <script type="text/javascript">
+            microadCompass.overridingHandler = {
+                onAdLoaded: () => { window.webkit.messageHandlers.showWebView.postMessage('') },
+                onClose: () => { window.webkit.messageHandlers.closeWebView.postMessage('') },
+                onRedirect: (url) => { window.webkit.messageHandlers.redirect.postMessage(url) }
+            };
+
+            microadCompass.queue.push({
+                "spot": "${COMPASS_SPOT}",
+                "ifa": "${COMPASS_EXT_IFA}",
+                "appid": "${COMPASS_EXT_APPID}",
+                "kv_set": {
+                    "gender": "${COMPASS_EXT_GENDER}",
+                    "birthday": "${COMPASS_EXT_BIRTHDAY}",
+                    "age": "${COMPASS_EXT_AGE}",
+                    "postcode": "${COMPASS_EXT_POSTCODE}",
+                    "email": "${COMPASS_EXT_EMAIL}",
+                    "hashed_email": "${COMPASS_EXT_HASHED_EMAIL}"
+                }
+            });
+        </script>
+    </div>
+</body>
+
+</html>

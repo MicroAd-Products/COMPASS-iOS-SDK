@@ -1,0 +1,11 @@
+framework module CompassIosSdk {
+  umbrella header "CompassIosSdk.h"
+  export *
+
+  module * { export * }
+}
+
+module CompassIosSdk.Swift {
+  header "CompassIosSdk-Swift.h"
+  requires objc
+}

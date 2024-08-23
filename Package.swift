@@ -9,10 +9,9 @@ let package = Package(
             targets: ["CompassIosSdk"]),
     ],
     targets: [
-        .target(
-            name: "CompassIosSdk"),
-        .testTarget(
-            name: "CompassIosSdkTests",
-            dependencies: ["CompassIosSdk"]),
+        .binaryTarget(
+            name: "CompassIosSdk",
+            path: "./CompassIosSdk.xcframework"
+        )
     ]
 )

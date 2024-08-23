@@ -11,7 +11,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CompassIosSdk",
-            path: "CompassIosSdk.xcframework"
+            url: "https://github.com/MicroAd-Products/COMPASS-iOS-SDK/releases/download/1.0.0/CompassIosSdk.xcframework.zip"
         )
     ]
 )

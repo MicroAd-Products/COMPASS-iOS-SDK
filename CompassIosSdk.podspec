@@ -7,9 +7,7 @@ Pod::Spec.new do |spec|
                    DESC
   spec.homepage     = "https://www.microad.co.jp/"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  # spec.author             = { "MicroAd" => "suyama_naoki@microad.co.jp" }
   spec.author       = "MicroAd"
-  # spec.authors            = { "MicroAd" => "suyama_naoki@microad.co.jp" }
   spec.ios.deployment_target = "15.0"
   spec.source       = { :git => "https://github.com/MicroAd-Products/COMPASS-iOS-SDK.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = "CompassIosSdk.xcframework"

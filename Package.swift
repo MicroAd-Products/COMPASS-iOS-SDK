@@ -1,3 +1,4 @@
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
@@ -11,7 +12,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CompassIosSdk",
-            url: "https://github.com/MicroAd-Products/COMPASS-iOS-SDK/releases/download/1.0.0/CompassIosSdk.xcframework.zip"
+            path: "CompassIosSdk.xcframework"
         )
     ]
 )

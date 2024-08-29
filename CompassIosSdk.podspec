@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "CompassIosSdk"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "COMPASS iOS SDK"
   spec.description  = <<-DESC
     COMPASS iOS SDK is an iOS framework developed and maintained by MicroAd, Inc. for displaying advertisements in native applications.

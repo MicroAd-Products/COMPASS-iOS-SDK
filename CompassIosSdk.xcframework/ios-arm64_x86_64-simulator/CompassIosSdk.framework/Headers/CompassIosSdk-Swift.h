@@ -311,14 +311,14 @@ SWIFT_CLASS("_TtC13CompassIosSdk23CompassInterstitialView")
 @interface CompassInterstitialView : UIView <WKNavigationDelegate, WKScriptMessageHandler>
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (void)loadWithSpot:(NSString * _Nonnull)spot kvSet:(KvSet * _Nullable)kvSet errorHandler:(void (^ _Nullable)(NSString * _Nonnull))errorHandler;
+- (void)loadWithSpot:(NSString * _Nonnull)spot appId:(NSString * _Nonnull)appId kvSet:(KvSet * _Nullable)kvSet errorHandler:(void (^ _Nullable)(NSString * _Nonnull))errorHandler;
 - (void)userContentController:(WKUserContentController * _Nonnull)_ didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 @end
 
 
 SWIFT_CLASS("_TtC13CompassIosSdk5KvSet")
 @interface KvSet : NSObject
-- (nonnull instancetype)initWithGender:(NSString * _Nullable)gender birthday:(NSString * _Nullable)birthday age:(NSString * _Nullable)age postcode:(NSString * _Nullable)postcode email:(NSString * _Nullable)email hashedEmail:(NSString * _Nullable)hashedEmail OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithGender:(NSString * _Nullable)gender birthday:(NSString * _Nullable)birthday age:(NSString * _Nullable)age postalCode:(NSString * _Nullable)postalCode email:(NSString * _Nullable)email hashedEmail:(NSString * _Nullable)hashedEmail OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -644,14 +644,14 @@ SWIFT_CLASS("_TtC13CompassIosSdk23CompassInterstitialView")
 @interface CompassInterstitialView : UIView <WKNavigationDelegate, WKScriptMessageHandler>
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (void)loadWithSpot:(NSString * _Nonnull)spot kvSet:(KvSet * _Nullable)kvSet errorHandler:(void (^ _Nullable)(NSString * _Nonnull))errorHandler;
+- (void)loadWithSpot:(NSString * _Nonnull)spot appId:(NSString * _Nonnull)appId kvSet:(KvSet * _Nullable)kvSet errorHandler:(void (^ _Nullable)(NSString * _Nonnull))errorHandler;
 - (void)userContentController:(WKUserContentController * _Nonnull)_ didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 @end
 
 
 SWIFT_CLASS("_TtC13CompassIosSdk5KvSet")
 @interface KvSet : NSObject
-- (nonnull instancetype)initWithGender:(NSString * _Nullable)gender birthday:(NSString * _Nullable)birthday age:(NSString * _Nullable)age postcode:(NSString * _Nullable)postcode email:(NSString * _Nullable)email hashedEmail:(NSString * _Nullable)hashedEmail OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithGender:(NSString * _Nullable)gender birthday:(NSString * _Nullable)birthday age:(NSString * _Nullable)age postalCode:(NSString * _Nullable)postalCode email:(NSString * _Nullable)email hashedEmail:(NSString * _Nullable)hashedEmail OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

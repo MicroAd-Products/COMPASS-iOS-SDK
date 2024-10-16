@@ -11,7 +11,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct CompassInterstitialUIView : SwiftUI.UIViewRepresentable {
-  public init(kvSet: CompassIosSdk.KvSet, spot: Swift.String)
+  public init(spot: Swift.String, appId: Swift.String, kvSet: CompassIosSdk.KvSet? = nil, errorHandler: ((Swift.String) -> Swift.Void)? = nil)
   @_Concurrency.MainActor(unsafe) public func updateUIView(_: UIKit.UIView, context _: CompassIosSdk.CompassInterstitialUIView.Context)
   @_Concurrency.MainActor(unsafe) public func makeUIView(context _: CompassIosSdk.CompassInterstitialUIView.Context) -> UIKit.UIView
   public typealias Body = Swift.Never
@@ -21,11 +21,11 @@ public struct CompassInterstitialUIView : SwiftUI.UIViewRepresentable {
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class CompassInterstitialView : UIKit.UIView, WebKit.WKNavigationDelegate, WebKit.WKScriptMessageHandler {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @objc @_Concurrency.MainActor(unsafe) public func load(spot: Swift.String, kvSet: CompassIosSdk.KvSet? = nil, errorHandler: ((Swift.String) -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) public func load(spot: Swift.String, appId: Swift.String, kvSet: CompassIosSdk.KvSet? = nil, errorHandler: ((Swift.String) -> Swift.Void)? = nil)
   @_Concurrency.MainActor(unsafe) @objc public func userContentController(_: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
   @objc deinit
 }
 @objc @objcMembers public class KvSet : ObjectiveC.NSObject {
-  @objc public init(gender: Swift.String? = nil, birthday: Swift.String? = nil, age: Swift.String? = nil, postcode: Swift.String? = nil, email: Swift.String? = nil, hashedEmail: Swift.String? = nil)
+  @objc public init(gender: Swift.String? = nil, birthday: Swift.String? = nil, age: Swift.String? = nil, postalCode: Swift.String? = nil, email: Swift.String? = nil, hashedEmail: Swift.String? = nil)
   @objc deinit
 }

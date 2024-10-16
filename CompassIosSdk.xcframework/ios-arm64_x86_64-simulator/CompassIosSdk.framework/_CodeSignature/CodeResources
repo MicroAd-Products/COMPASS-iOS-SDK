@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CompassIosSdk-Swift.h</key>
 		<data>
-		wq5kDA7bc1kTsVUhU0TkPOGRUwI=
+		hlwPjpy67HXAeRfbFuSQd4VdQeQ=
 		</data>
 		<key>Headers/CompassIosSdk.h</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/CompassIosSdk.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		PGw1+bJ06yZT/lNW4GGWxo4xmBo=
+		7TVCVFv29ni7l/QDmncXQxkbzTE=
 		</data>
 		<key>Modules/CompassIosSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		RkVPmWh0uDbGGYdOmI4OitCiB5Y=
+		I4PRLlaech89jyenoa+pgBZWkCY=
 		</data>
 		<key>Modules/CompassIosSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0CSqLkWtp+JfmRvY6u4F67E+qIs=
+		03xjs70CMgmaUqxn5AaUnyrn6Kw=
 		</data>
 		<key>Modules/CompassIosSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OavKz7LmEmVpBXNXMD4ChHuOFHU=
+		w/qes71gsqCsHpD8yo1BDZEU6ZY=
 		</data>
 		<key>Modules/CompassIosSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/CompassIosSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OavKz7LmEmVpBXNXMD4ChHuOFHU=
+		w/qes71gsqCsHpD8yo1BDZEU6ZY=
 		</data>
 		<key>Modules/CompassIosSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HiqgpBKlIJK45YB9pQH1ZemipPU=
+		B+Y3LSwyd9QbCR/m5bE3VYVuRmc=
 		</data>
 		<key>Modules/CompassIosSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		0CSqLkWtp+JfmRvY6u4F67E+qIs=
+		03xjs70CMgmaUqxn5AaUnyrn6Kw=
 		</data>
 		<key>Modules/CompassIosSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mdbcB134GRBlMXuzK4dlIwfEzA8=
+		ftpAe8EMS6erAPSPL/XEvIzQ0hE=
 		</data>
 		<key>Modules/CompassIosSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/CompassIosSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mdbcB134GRBlMXuzK4dlIwfEzA8=
+		ftpAe8EMS6erAPSPL/XEvIzQ0hE=
 		</data>
 		<key>Modules/CompassIosSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ol2gyXVRclq7NbMLSLAH/7E1Zb0=
+		XfTo+4V7FRBsu8+Yrf9gZJ41/Rg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>interstitial_ad.html</key>
 		<data>
-		YsN86bf2pD8vEN00d0GXU6CTUUc=
+		a2LnPM86Ai/4DBnYAIapQgQEk7E=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			spGZNZnat8MFSvtjK4/qO/kI+2DEk/Tk/iMCN2EabbM=
+			cFdUucZHppAiMxkUH0QHNFHGwZHyw3HMuHN1DI1lDPs=
 			</data>
 		</dict>
 		<key>Headers/CompassIosSdk.h</key>
@@ -93,28 +93,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6nQOkntBO4Oj8Ng1Q9xGNWTvmsTd+2Nx+eM3iO8cMD4=
+			Atd78ZZ5oBQN+eWHIHpmwK0xPsIYkVOMhT+ou7tEhhs=
 			</data>
 		</dict>
 		<key>Modules/CompassIosSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oSwFYX6AFa6CGDHkh5pSjvg4XeNb10aLYA1VD2juxNo=
+			okEbxDwPPD9r++TTzUBplLNUsrA9c8zh5DieIs+GpBw=
 			</data>
 		</dict>
 		<key>Modules/CompassIosSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cD0qpqQ7W8o/yCdoD85BOsEdKTO6KY0dHf1XvI+/u00=
+			fAsGT224FzyWX922knLwgjwrzAVduBWRAjiyO3oi7N4=
 			</data>
 		</dict>
 		<key>Modules/CompassIosSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3RiIOYNEQqX4MewDB9p44QLg6B8shWNcj6Blp7quTCc=
+			NqMt1FmNMOWnDh2F2Y3IAy/TXmBvYMZ44pYls41+hWc=
 			</data>
 		</dict>
 		<key>Modules/CompassIosSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -128,28 +128,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3RiIOYNEQqX4MewDB9p44QLg6B8shWNcj6Blp7quTCc=
+			NqMt1FmNMOWnDh2F2Y3IAy/TXmBvYMZ44pYls41+hWc=
 			</data>
 		</dict>
 		<key>Modules/CompassIosSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JBO04FBIcaHyDXyE5jKkFk5vfaZBPf/lO+3LsTKWP3M=
+			dfCUSeddzMLdg/pTWXJgiARH/cSnRHUqeSs03EylSDs=
 			</data>
 		</dict>
 		<key>Modules/CompassIosSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cD0qpqQ7W8o/yCdoD85BOsEdKTO6KY0dHf1XvI+/u00=
+			fAsGT224FzyWX922knLwgjwrzAVduBWRAjiyO3oi7N4=
 			</data>
 		</dict>
 		<key>Modules/CompassIosSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UknVS+yOJKEseyekcuKYxvNnAp4VxBCaKuy1iLePafc=
+			UWVpuYETkOq/U1YlKSx/di/0aQS1thiAY+qUeSqbZu4=
 			</data>
 		</dict>
 		<key>Modules/CompassIosSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -163,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UknVS+yOJKEseyekcuKYxvNnAp4VxBCaKuy1iLePafc=
+			UWVpuYETkOq/U1YlKSx/di/0aQS1thiAY+qUeSqbZu4=
 			</data>
 		</dict>
 		<key>Modules/CompassIosSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hxzdCtQJ3OXmXqbj8MuSFBzb589sWAmRtriX1C2GWLY=
+			+MxRm6eOWVahCh7iEMNbXjzgnClXob+UX07Xa2Mayco=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tt4RxofjK9A19xwNbr4U+YALtX0uqiYQhDco4689JIA=
+			TmK1iqDxlxpt40dqXMUQ2Jq46II/4be9hrKrMTwx48k=
 			</data>
 		</dict>
 	</dict>

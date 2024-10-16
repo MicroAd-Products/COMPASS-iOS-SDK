@@ -26,7 +26,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(kvSet:spot:)",
+            "printedName": "init(spot:appId:kvSet:errorHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -36,20 +36,62 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "KvSet",
-                "printedName": "CompassIosSdk.KvSet",
-                "usr": "c:@M@CompassIosSdk@objc(cs)KvSet"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CompassIosSdk.KvSet?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KvSet",
+                    "printedName": "CompassIosSdk.KvSet",
+                    "usr": "c:@M@CompassIosSdk@objc(cs)KvSet"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13CompassIosSdk0A18InterstitialUIViewV5kvSet4spotAcA02KvG0C_SStcfc",
-            "mangledName": "$s13CompassIosSdk0A18InterstitialUIViewV5kvSet4spotAcA02KvG0C_SStcfc",
+            "usr": "s:13CompassIosSdk0A18InterstitialUIViewV4spot5appId5kvSet12errorHandlerACSS_SSAA02KvJ0CSgySScSgtcfc",
+            "mangledName": "$s13CompassIosSdk0A18InterstitialUIViewV4spot5appId5kvSet12errorHandlerACSS_SSAA02KvJ0CSgySScSgtcfc",
             "moduleName": "CompassIosSdk",
             "declAttributes": [
               "AccessControl"
@@ -296,12 +338,18 @@
           {
             "kind": "Function",
             "name": "load",
-            "printedName": "load(spot:kvSet:errorHandler:)",
+            "printedName": "load(spot:appId:kvSet:errorHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -353,8 +401,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@CompassIosSdk@objc(cs)CompassInterstitialView(im)loadWithSpot:kvSet:errorHandler:",
-            "mangledName": "$s13CompassIosSdk0A16InterstitialViewC4load4spot5kvSet12errorHandlerySS_AA02KvI0CSgySScSgtF",
+            "usr": "c:@M@CompassIosSdk@objc(cs)CompassInterstitialView(im)loadWithSpot:appId:kvSet:errorHandler:",
+            "mangledName": "$s13CompassIosSdk0A16InterstitialViewC4load4spot5appId5kvSet12errorHandlerySS_SSAA02KvK0CSgySScSgtF",
             "moduleName": "CompassIosSdk",
             "declAttributes": [
               "Custom",
@@ -491,7 +539,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(gender:birthday:age:postcode:email:hashedEmail:)",
+            "printedName": "init(gender:birthday:age:postalCode:email:hashedEmail:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -591,8 +639,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@CompassIosSdk@objc(cs)KvSet(im)initWithGender:birthday:age:postcode:email:hashedEmail:",
-            "mangledName": "$s13CompassIosSdk5KvSetC6gender8birthday3age8postcode5email11hashedEmailACSSSg_A5Jtcfc",
+            "usr": "c:@M@CompassIosSdk@objc(cs)KvSet(im)initWithGender:birthday:age:postalCode:email:hashedEmail:",
+            "mangledName": "$s13CompassIosSdk5KvSetC6gender8birthday3age10postalCode5email11hashedEmailACSSSg_A5Jtcfc",
             "moduleName": "CompassIosSdk",
             "declAttributes": [
               "AccessControl",
@@ -713,63 +761,70 @@
     {
       "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
       "kind": "StringLiteral",
-      "offset": 233,
+      "offset": 257,
       "length": 17,
       "value": "\"${COMPASS_SPOT}\""
     },
     {
       "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
       "kind": "StringLiteral",
-      "offset": 281,
+      "offset": 305,
       "length": 20,
       "value": "\"${COMPASS_EXT_IFA}\""
     },
     {
       "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
       "kind": "StringLiteral",
-      "offset": 334,
+      "offset": 358,
       "length": 22,
       "value": "\"${COMPASS_EXT_APPID}\""
     },
     {
       "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
       "kind": "StringLiteral",
-      "offset": 390,
+      "offset": 414,
+      "length": 23,
+      "value": "\"${COMPASS_EXT_BUNDLE}\""
+    },
+    {
+      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
       "length": 23,
       "value": "\"${COMPASS_EXT_GENDER}\""
     },
     {
       "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
       "kind": "StringLiteral",
-      "offset": 449,
+      "offset": 530,
       "length": 25,
       "value": "\"${COMPASS_EXT_BIRTHDAY}\""
     },
     {
       "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
       "kind": "StringLiteral",
-      "offset": 505,
+      "offset": 586,
       "length": 20,
       "value": "\"${COMPASS_EXT_AGE}\""
     },
     {
       "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
       "kind": "StringLiteral",
-      "offset": 561,
-      "length": 25,
-      "value": "\"${COMPASS_EXT_POSTCODE}\""
+      "offset": 644,
+      "length": 27,
+      "value": "\"${COMPASS_EXT_POSTALCODE}\""
     },
     {
       "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
       "kind": "StringLiteral",
-      "offset": 619,
+      "offset": 704,
       "length": 22,
       "value": "\"${COMPASS_EXT_EMAIL}\""
     },
     {
       "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/util\/HtmlMacroReplacer.swift",
       "kind": "StringLiteral",
-      "offset": 680,
+      "offset": 765,
       "length": 29,
       "value": "\"${COMPASS_EXT_HASHED_EMAIL}\""
     },

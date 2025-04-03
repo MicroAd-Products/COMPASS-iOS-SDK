@@ -1,7 +1,7 @@
 # COMPASS iOS SDK
-COMPASS iOS SDK is an iOS framework developed and maintained by [MicroAd, Inc.](https://www.microad.co.jp/) for displaying advertisements in native applications.
+The COMPASS iOS SDK is an iOS framework developed and maintained by [MicroAd, Inc.](https://www.microad.co.jp/) for displaying advertisements in native applications.
 
-You can read more about COMPASS at [its' official page](https://www.microad.co.jp/services/adplatform/microad-compass/).
+You can read more about COMPASS at [official page](https://www.microad.co.jp/services/adplatform/microad-compass/).
 
 ## System Requirements
 

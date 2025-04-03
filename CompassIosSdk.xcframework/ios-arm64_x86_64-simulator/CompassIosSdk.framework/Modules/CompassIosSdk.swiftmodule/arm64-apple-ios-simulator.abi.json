@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "CompassIosSdk",
+    "printedName": "CompassIosSdk",
     "children": [
       {
         "kind": "Import",
@@ -94,6 +94,8 @@
             "mangledName": "$s13CompassIosSdk0A18InterstitialUIViewV4spot5appId5kvSet12errorHandlerACSS_SSAA02KvJ0CSgySScSgtcfc",
             "moduleName": "CompassIosSdk",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -134,6 +136,7 @@
             "mangledName": "$s13CompassIosSdk0A18InterstitialUIViewV06updateE0_7contextySo0E0C_7SwiftUI0E20RepresentableContextVyACGtF",
             "moduleName": "CompassIosSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -170,6 +173,7 @@
             "mangledName": "$s13CompassIosSdk0A18InterstitialUIViewV04makeE07contextSo0E0C7SwiftUI0E20RepresentableContextVyACG_tF",
             "moduleName": "CompassIosSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -181,9 +185,25 @@
         "mangledName": "$s13CompassIosSdk0A18InterstitialUIViewV",
         "moduleName": "CompassIosSdk",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "UIViewRepresentable",
@@ -239,6 +259,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -296,6 +323,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required",
               "AccessControl"
@@ -329,6 +357,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -405,6 +434,7 @@
             "mangledName": "$s13CompassIosSdk0A16InterstitialViewC4load4spot5appId5kvSet12errorHandlerySS_SSAA02KvK0CSgySScSgtF",
             "moduleName": "CompassIosSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -441,6 +471,7 @@
             "objc_name": "userContentController:didReceiveScriptMessage:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -453,6 +484,7 @@
         "mangledName": "$s13CompassIosSdk0A16InterstitialViewC",
         "moduleName": "CompassIosSdk",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjCMembers",
@@ -466,6 +498,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -691,6 +737,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -878,13 +938,6 @@
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/models\/KvSet.swift",
-      "kind": "StringLiteral",
-      "offset": 26,
-      "length": 5,
-      "value": "\"CompassIosSdk.KvSet\""
-    },
-    {
       "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialWebView.swift",
       "kind": "StringLiteral",
       "offset": 140,
@@ -911,13 +964,6 @@
       "offset": 419,
       "length": 44,
       "value": "\"Bundle IDが取得できませんでした\""
-    },
-    {
-      "filePath": "\/Users\/suyama_naoki\/git\/CompassIosSdk\/CompassIosSdk\/views\/CompassInterstitialWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 44,
-      "length": 26,
-      "value": "\"CompassIosSdk.CompassInterstitialWebView\""
     }
   ]
 }
